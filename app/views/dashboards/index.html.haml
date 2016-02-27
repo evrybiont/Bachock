@@ -1,1 +1,10 @@
-Body
+.motoparts
+  - step = 0
+
+  - while @items[step]
+    .row.parts
+      - 6.times do |i|
+        - if @items[i + step].nil?
+          - break
+        .two.columns.part= @items[i + step]
+    - step += 6
