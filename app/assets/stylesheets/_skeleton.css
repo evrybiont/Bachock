@@ -402,41 +402,11 @@ there.
 */
 
 @media (min-width: 280px) {
-  /*Dashboard log out user*/
-  body {
-    background-image: image-url('main-hot-rod.png');
-    background-attachment: fixed;
-    background-position: 35% 130%;
-    background-repeat: no-repeat;
-  }
-
-  .stuff .u-chops .u-chop {margin-bottom: 35px}
-
-  #setting .image {cursor: default;}
-
-  #sidebar .menu,
-  #setting .image,
-  .navbar .title,
-  .navbar .logo,
-  .navbar .nav-menu,
-  .stuff .u-chops,
-  .stuff .chop .avatar,
-  .stuff .chop .name,
-  .stuff #setting .save,
-  .stuff #setting .save,
-  .stuff #pre-setting,
-  .stuff .chop .actions {text-align: center;}
-
-  .stuff .chop .image {width: 100%}
-
-  .stuff .u-chops .u-chop .one.column {width: 33.3333333333%;}
-  /*========================*/
+  #nav .four.columns.brand,
+  #nav .eight.columns.menu {text-align: center; width: 100%;}
 }
 
 @media (min-width: 350px) {
-  /*Dashboard log out user*/
-  .stuff .chop .image {width: auto}
-  /*========================*/
 }
 
 /* Larger than mobile */
@@ -445,52 +415,16 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  .stuff .u-chops .u-chop {margin-bottom: 0}
-
-  /*Dashboard log out user*/
-  .stuff #pre-setting .ten.columns,
-  .stuff .u-chops .add-chop,
-  #sidebar .menu,
-  .navbar .nav-menu {text-align: right;}
-
-  .stuff #setting .two.columns,
-  .stuff #setting .ten.columns,
-  .stuff .row.chop .four.columns,
-  .stuff .row.chop .seven.columns,
-  .stuff .row.chop .one.column {margin-left: 0; width: 100%;}
-
-  .stuff #pre-setting .two.columns,
-  .stuff .u-chops .u-chop .nine.columns,
-  .stuff #setting .image {text-align: left;}
-  .stuff #setting .ten.columns .save {text-align: center;}
-  .stuff #setting .two.columns.save {margin-left: 4%; text-align: right; width: 13.3333333333%;}
-  .stuff .u-chops .u-chop .one.column {margin-left: 4%; text-align: right; width: 4.66666666667%;}
-  /*========================*/
+  #nav .four.columns.brand {text-align: left; width: 30.6666666667%;}
+  #nav .eight.columns.menu {text-align: right; width: 65.3333333333%;}
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  /*Dashboard log out user*/
-  .stuff .row.chop .four.columns {width: 30.6666666667%;}
-  .stuff .row.chop .seven.columns {margin-left: 4%; width: 56.6666666667%;}
-  .stuff .row.chop .one.column {margin-left: 4%; width: 4.66666666667%;}
-
-  .stuff .chop .image {width: 100%}
-  .stuff .chop .name {text-align: left;}
-  .stuff .chop .actions {text-align: right;}
-  /*========================*/
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  /*Dashboard log out user*/
-  body {
-    background-image: image-url('main-hot-rod.png');
-    background-attachment: fixed;
-    background-position: 110% 130%;
-    background-repeat: no-repeat;
-  }
-  /*========================*/
 }
 
 /* Larger than Desktop HD */

@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'pry'
 gem 'haml-rails'
 gem 'sass-rails', '~> 5.0'
+gem 'font-awesome-rails'
 
 group :development, :test do
   gem 'byebug'

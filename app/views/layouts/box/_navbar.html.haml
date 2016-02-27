@@ -1,5 +1,10 @@
 #nav
   .row
-    .four.columns.logo
+    .four.columns.brand
       = link_to root_path do
         = image_tag 'logo.png', class: 'logo'
+    .eight.columns.menu
+      = link_to '#', title: 'Помощь проекту' do
+        = fa_icon 'money 2x'
+      = link_to '#', title: 'Войти' do
+        = fa_icon 'sign-in 2x'
